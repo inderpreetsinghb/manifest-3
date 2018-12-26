@@ -630,4 +630,7 @@
   <project path="system/tools/dtbtool" name="system_tools_dtbtool" remote="ours" revision="8.1" />
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
+<!-- Remove unused AOSP repos -->
+  <include name="remove.xml" />
+
 </manifest>
