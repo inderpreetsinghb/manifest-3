@@ -627,7 +627,7 @@
   <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" />
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
   <project path="vendor/qcom-opensource/dataservices" name="vendor_qcom-opensource_dataservices" remote="ours" revision="data.lnx.3.0.r23-rel" />
-
+  <project path="system/tools/dtbtool" name="system_tools_dtbtool" remote="ours" revision="8.1" />
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
 </manifest>
