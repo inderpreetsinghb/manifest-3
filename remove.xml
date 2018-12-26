@@ -46,6 +46,6 @@
   <remove-project name="device/linaro/hikey-kernel" />
   <remove-project name="device/sample" />
 
-  <remove-project name="platform/packages/apps/Launcher3" />
+  <remove-project name="platform/packages/apps/Launcher2" />
 
 </manifest>
