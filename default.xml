@@ -414,7 +414,7 @@
   <project path="hardware/marvell/bt" name="platform/hardware/marvell/bt" groups="marvell_bt,pdk" />
   <project path="hardware/qcom/audio" name="platform/hardware/qcom/audio" groups="qcom,qcom_audio,pdk" />
   <project path="hardware/qcom/bootctrl" name="platform/hardware/qcom/bootctrl" groups="pdk" />
-  <project path="hardware/qcom/bt" name="platform/hardware/qcom/bt" groups="qcom,pdk" remote="ours" revision="8.1"/>
+  <project path="hardware/qcom/bt" name="hardware_qcom_bt" groups="qcom,pdk" remote="ours" revision="8.1"/>
   <project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" groups="qcom,pdk" remote="ours" revision="8.1-caf"/>
   <project path="hardware/qcom/camera" name="platform/hardware/qcom/camera" groups="qcom_camera" />
   <project path="hardware/qcom/data/ipacfg-mgr" name="platform/hardware/qcom/data/ipacfg-mgr" groups="qcom,pdk" />
