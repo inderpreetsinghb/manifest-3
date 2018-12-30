@@ -32,3 +32,11 @@ Build command is
     . build/envsetup.sh
     lunch aosp_$device-userdebug
     make -jx otapackage
+
+### Special Thanks To
+
+    * @inderpreetsinghb
+    * @mainigautum
+    * @ashleydavid
+    * @varunpilankar
+    * @milanmawani
