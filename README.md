@@ -35,8 +35,8 @@ Build command is
 
 ### Special Thanks To
 
-    * @inderpreetsinghb
-    * @mainigautum
-    * @ashleydavid
-    * @varunpilankar
-    * @milanmawani
+####    * @inderpreetsinghb
+####    * @mainigautum
+####    * @ashleydavid
+####    * @varunpilankar
+####    * @milanmawani
