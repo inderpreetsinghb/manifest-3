@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+    <!-- Github remote -->
+    <remote name="github"
+        fetch="https://github.com/" />
+
+   <remote name="ours"
+	  fetch="https://github.com/AOSP-Oreo-MSM8916"/>
+   <remote name="los"
+	  fetch="https://github.com/LineageOS"
+	  revision="lineage-15.1"/>
+
+
+<project path="packages/apps/Messaging" name="android_packages_apps_Messaging" groups="pdk-fs" remote="los"/>
+<project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="los" />
+<project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="los" >
+<project path="build/make" name="build_make" groups="pdk" remote="ours" revision="8.1" >
+<project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="ours" revision="8.1" >
+<project path="bionic" name="bionic" groups="pdk" remote="ours" revision="8.1"/>
+<project path="external/selinux" name="external_selinux" groups="pdk" remote="ours" revision="8.1"/>
+<project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="ours" revision="8.1"/>
+<project path="frameworks/av" name="frameworks_av" groups="pdk" remote="ours" revision="8.1"/>
+<project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="ours" revision="8.1"/>
+<project path="frameworks/native" name="frameworks_native" groups="pdk" remote="ours" revision="8.1"/>
+<project path="hardware/libhardware" name="hardware_libhardware" groups="pdk" remote="ours" revision="8.1"/>
+<project path="hardware/libhardware_legacy" name="hardware_libhardware_legacy" groups="pdk" remote="ours" revision="8.1"/>
+<project path="hardware/qcom/bt" name="hardware_qcom_bt" groups="qcom,pdk" remote="ours" revision="8.1"/>
+<project path="hardware/qcom/bt-caf" name="hardware_qcom_bt" groups="qcom,pdk" remote="ours" revision="8.1-caf"/>
+<project path="hardware/qcom/display-caf/msm8916" name="hardware_qcom_display-caf_msm8916" remote="ours" revision="8.1"/>
+<project path="hardware/qcom/media-caf/msm8916" name="hardware_qcom_media-caf_msm8916" remote="ours" revision="8.1"/>
+<project path="hardware/qcom/audio-caf/msm8916" name="hardware_qcom_audio-caf_msm8916" remote="ours" revision="8.1"/>
+<project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" groups="qcom,qcom_keymaster,pdk" remote="ours" revision="8.1" />
+<project path="hardware/qcom/wlan" name="hardware_qcom_wlan" groups="qcom_wlan,pdk" remote="ours" revision="8.1"/>
+<project path="hardware/qcom/wlan-caf" name="hardware_qcom_wlan" groups="pdk" remote="ours" revision="8.1-caf"/>
+<project path="hardware/ril" name="hardware_ril" groups="pdk" remote="ours" revision="8.1"/>
+<project path="hardware/ril-caf" name="hardware_ril" groups="pdk" remote="ours" revision="8.1-caf"/>
+<project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="ours" revision="8.1"/>
+<project path="packages/services/Telephony" name="packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="ours" revision="8.1"/>
+<project path="system/bt" name="system_bt" groups="pdk" remote="ours" revision="8.1"/>
+<project path="system/core" name="system_core" groups="pdk" remote="ours" revision="8.1"/>
+<project path="system/sepolicy" name="system_sepolicy" groups="pdk" remote="ours" revision="8.1"/>
+<project path="system/vold" name="system_vold" groups="pdk" remote="ours" revision="8.1"/>
+<project path="vendor/qcom/opensource/dataservices" name="vendor_qcom-opensource_dataservices" remote="ours" revision="data.lnx.3.0.r23-rel" />
+<project path="system/tools/dtbtool" name="system_tools_dtbtool" remote="ours" revision="8.1" />
+<project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="ours" revision="8.1" />
+  
