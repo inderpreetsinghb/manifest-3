@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
+
   <remote  name="aosp"
-           fetch="https://android.googlesource.com"
+           fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
+
   <default revision="refs/tags/android-8.1.0_r53"
            remote="aosp"
            sync-j="4" />
+
   <project path="build/make" name="platform/build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
@@ -616,5 +619,8 @@
   <project path="tools/test/connectivity" name="platform/tools/test/connectivity" groups="pdk" />
   <project path="tools/tradefederation/core" name="platform/tools/tradefederation" groups="pdk,tradefed" />
   <project path="tools/tradefederation/contrib" name="platform/tools/tradefederation/contrib" groups="pdk,tradefed" />
-  <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
+
+  <!-- Include-->
+  <include name="remove.xml" />
+
 </manifest>

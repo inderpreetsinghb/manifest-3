@@ -6,17 +6,20 @@
         fetch="https://github.com/" />
 
    <remote name="ours"
-	  fetch="https://github.com/AOSP-Oreo-MSM8916"/>
+	  fetch="https://github.com/AOSP-Oreo-MSM8916/"/>
+
    <remote name="los"
-	  fetch="https://github.com/LineageOS"
+	  fetch="https://github.com/LineageOS/"
 	  revision="lineage-15.1"/>
 
-<project path="packages/apps/DeskClock" name="packages_apps_DeskClock" groups="pdk-fs" remote="ours" revision="8.1" >
+<project path="packages/apps/DeskClock" name="packages_apps_DeskClock" groups="pdk-fs" remote="ours" revision="8.1" />
 <project path="packages/apps/Messaging" name="android_packages_apps_Messaging" groups="pdk-fs" remote="los"/>
 <project path="vendor/qcom/opensource/cryptfs_hw" name="android_vendor_qcom_opensource_cryptfs_hw" remote="los" />
 <project path="vendor/qcom/opensource/interfaces" name="android_vendor_qcom_opensource_interfaces" remote="los" >
-<project path="build/make" name="build_make" groups="pdk" remote="ours" revision="8.1" >
-<project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="ours" revision="8.1" >
+    <copyfile dest="vendor/qcom/opensource/Android.bp" src="os_pickup.bp"/>
+</project>
+<project path="build/make" name="build_make" groups="pdk" remote="ours" revision="8.1" />
+<project path="build/soong" name="build_soong" groups="pdk,tradefed" remote="ours" revision="8.1" />
 <project path="bionic" name="bionic" groups="pdk" remote="ours" revision="8.1"/>
 <project path="external/selinux" name="external_selinux" groups="pdk" remote="ours" revision="8.1"/>
 <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="ours" revision="8.1"/>
@@ -45,3 +48,4 @@
 <project path="system/tools/dtbtool" name="system_tools_dtbtool" remote="ours" revision="8.1" />
 <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="ours" revision="8.1" />
   
+</manifest>
