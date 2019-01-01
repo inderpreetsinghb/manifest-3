@@ -68,6 +68,6 @@
   <remove-project name="platform/packages/apps/Launcher2" />
   
   <!-- Track Our AOSP repos -->
-  <include name="ours.xml" />
+  <include name="Ours.xml" />
 
 </manifest>
