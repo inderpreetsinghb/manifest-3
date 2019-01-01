@@ -4,28 +4,27 @@
   <!-- General repos -->
   <remove-project name="platform/build/make" />
   <remove-project name="platform/build/soong" />
- <remove-project name="platform/bionic" />
-   <remove-project name="external/selinux" />
-    <remove-project name="external/tinycompress" />
+  <remove-project name="platform/bionic" />
+  <remove-project name="external/selinux" />
+  <remove-project name="external/tinycompress" />
   <remove-project name="frameworks/av" />
-   <remove-project name="frameworks/base" />
+  <remove-project name="frameworks/base" />
   <remove-project name="frameworks/native" />
-    <remove-project name="hardware/libhardware" />
-    <remove-project name="frameworks/libhardware_legacy" />
-    <remove-project name="hardware/qcom/bt" />
-    <remove-project name="hardware/qcom/bt-caf" />
-    <remove-project name="hardware/qcom/keymaster" />
-    <remove-project name="hardware/qcom/wlan" />
-    <remove-project name="hardware/qcom/wlan-caf" />
+  <remove-project name="hardware/libhardware" />
+  <remove-project name="frameworks/libhardware_legacy" />
+  <remove-project name="hardware/qcom/bt" />
+  <remove-project name="hardware/qcom/bt-caf" />
+  <remove-project name="hardware/qcom/keymaster" />
+  <remove-project name="hardware/qcom/wlan" />
+  <remove-project name="hardware/qcom/wlan-caf" />
   <remove-project name="hardware/qcom/ril" />
   <remove-project name="hardware/qcom/ril-caf" />
   <remove-project name="packages/providers/MediaProvider" />
   <remove-project name="packages/services/Telephony" />
-   <remove-project name="system/bt" />
+  <remove-project name="system/bt" />
   <remove-project name="system/core" />
   <remove-project name="system/sepolicy" />
-   <remove-project name="system/vold" />
-   <remove-project name="system/vold" />
+  <remove-project name="system/vold" />
      
   <!-- Device repos -->
   <remove-project name="device/asus/fugu" />
