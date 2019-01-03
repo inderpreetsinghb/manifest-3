@@ -47,5 +47,7 @@
 <project path="vendor/qcom/opensource/dataservices" name="vendor_qcom-opensource_dataservices" remote="ours" revision="data.lnx.3.0.r23-rel" />
 <project path="system/tools/dtbtool" name="system_tools_dtbtool" remote="ours" revision="8.1" />
 <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="ours" revision="8.1" />
-  
+
+ <!-- Gapps -->
+  <include name="opengapps.xml" />
 </manifest>
