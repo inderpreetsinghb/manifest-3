@@ -35,6 +35,7 @@
 <project path="bootable/recovery" name="bootable_recovery" groups="pdk" remote="ours" revision="8.1"/>
 <project path="external/selinux" name="external_selinux" groups="pdk" remote="ours" revision="8.1"/>
 <project path="external/tinycompress" name="external_tinycompress" groups="pdk" remote="ours" revision="8.1"/>
+<project path="external/ant-wireless/antradio-library" name="android_external_ant-wireless_antradio-library" remote="los" revision="lineage-15.1" />
 <project path="frameworks/av" name="frameworks_av" groups="pdk" remote="ours" revision="8.1"/>
 <project path="frameworks/base" name="frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="ours" revision="8.1"/>
 <project path="frameworks/native" name="frameworks_native" groups="pdk" remote="ours" revision="8.1"/>
