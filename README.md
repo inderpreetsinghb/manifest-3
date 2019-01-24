@@ -18,7 +18,7 @@ GIT config (nickname, e-mail)
 To initialize your local repository use
 ---------------------------------------
 
-    repo init -u https://github.com/AOSP-Oreo-MSM8916/manifest.git -b 8.1
+    repo init -u https://github.com/AOSP-Oreo-MSM8916/manifest.git -b 8.1-gapps
     
 
 Then to sync up:
