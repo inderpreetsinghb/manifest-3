@@ -61,6 +61,4 @@
 <project path="system/tools/dtbtool" name="system_tools_dtbtool" remote="ours" revision="8.1" />
 <project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="ours" revision="8.1" />
 
- <!-- Gapps -->
-  <include name="opengapps.xml" />
 </manifest>
